@@ -1,4 +1,4 @@
-div {
+.strona1 {
     width: 960px;
     margin-left: auto;
     margin-right: auto;
@@ -75,13 +75,17 @@ div {
     width: 1280px;
     height: 574px;
     background: rgba(0, 0, 0, 0.15);
-    background-image: url("https://i.iplsc.com/-/000DXXFPTDEXHLK1-C411.jpg");
+    background-image: url("psy.jpg");
     background-size: cover;
 }
-.tekst {
+.background {
+    position: relative;
+}
+.introduction {
     position: absolute;
-    left: 94px;
-    bottom: 349.89px;
+    margin-left: 94px;
+    top: 178px;
+    color: #FFFFFF;
     width: 577px;
     height: 46.11px;
     font-family: 'Roboto';
@@ -91,6 +95,45 @@ div {
     line-height: 42px;
     display: flex;
     align-items: center;
+}
+.introduction1 {
+    position: absolute;
+    margin-left: 94px;
+    top: 286.29px;
+    color: #FFFFFF;
+    width: 276px;
+    height: 23.13px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+}
+.oferta1 {
+    position: absolute;
+    margin-left: 94px;
+    top: 352.26px;
+    background: none;
+    width: 164px;
+    height: 40.74px;
+    border: 3px solid #FFFFFF;
+}
+.przycisk {
+    width: 49px;
+    height: 12.8px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 21px;
     color: #FFFFFF;
 }
-
+.okno {
+    width: 1280px;
+    height: 574px;
+    background: #F1F1F1;
+    margin-left: auto;
+    margin-right: auto;
+}
