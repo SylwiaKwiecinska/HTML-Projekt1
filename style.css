@@ -13,63 +13,35 @@
     background: #4E4E4E;
     margin-left: auto;
     margin-right: auto;
+    display: flex;
+    align-items: center;
+}
+.tekst {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    display: flex;
+    align-items: center;
+    color: #F1F1F1;
+}
+button {
+    background: none;
+    border: none;
+    margin-bottom: 5px;
 }
 .mojafirma {
-    position: absolute;
-    width: 88px;
-    height: 29px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    color: #FFFFFF;
     margin-left: 94px;
-    margin-top: 10px;
 }
 .onas {
-    position: absolute;
-    background-color: #4E4E4E;
-    border: none;
-    margin-left: 943px;
-    margin-top: 13px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
+    margin-left: 700px;
 }
 .oferta {
-    position: absolute;
-    background-color: #4E4E4E;
-    border: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    margin-left: 1034px;
-    margin-top: 13px;
+    margin-left: 80px;
 }
 .kontakt {
-    position: absolute;
-    background-color: #4E4E4E;
-    border: none;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-    margin-left: 1129px;
-    margin-top: 13.83px;
+    margin-left: 80x;
 }
 .homepage {
     width: 1280px;
