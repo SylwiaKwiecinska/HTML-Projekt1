@@ -1,183 +1,147 @@
+/* font-family 'Roboto', sans-serif;*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wgh@300;700&display=swap');
 .container {
     width: 960px;
-    margin-left: auto;
-    margin-right: auto;
+    margin: 0 auto;
 }
-.sekcja1 {
-    height: 100vh;
-}
-.sekcja2 {
-    height: 100vh;
-}
-.sekcja3 {
-    height: 100vh;
-}
-.rectangle {
-    position: absolute;
+nav {
     width: 1280px;
     height: 50px;
-    background: #4E4E4E;
-    margin-left: auto;
-    margin-right: auto;
     display: flex;
     align-items: center;
-}
-.tekst {
     font-family: 'Roboto';
     font-style: normal;
-    font-weight: 400;
+    font-weight: 700;
     font-size: 18px;
     line-height: 21px;
+    color: #FFFFFF;     
+}
+.nav-container {
+    display: flex;
+    justify-content: space-between;
+}
+ul {
+    display: inline-flex;
+    list-style-type: none;
+}
+.firma {
     display: flex;
     align-items: center;
-    color: #F1F1F1;
 }
-button {
-    position: absolute;
-    background: none;
-    border: none;
-    margin-bottom: 5px;
+span {
+    margin: 20px;
 }
-.mojafirma {
-    margin-left: 94px;
-}
-.onas {
-    margin-left: 943px;
-}
-.oferta {
-    margin-left: 1034px;
-}
-.kontakt {
-    margin-left: 1129px;
-}
-.homepage {
+header {
     width: 1280px;
-    height: 574px;
-    background: rgba(0, 0, 0, 0.15);
-    background-image: url("psy.jpg");
+    height: calc(100vh - 50px);
     background-size: cover;
-}
-.background {
-    position: relative;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    color: #FFFFFF;
 }
 .introduction {
     position: absolute;
-    margin-left: 94px;
     top: 178px;
-    color: #FFFFFF;
     width: 577px;
-    height: 46.11px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+    height: 46.11px; 
     font-size: 36px;
-    line-height: 42px;
     display: flex;
     align-items: center;
-}
+   }
 .introduction1 {
     position: absolute;
-    margin-left: 94px;
-    top: 286.29px;
-    color: #FFFFFF;
+    top: 286.29px; 
     width: 276px;
-    height: 23.13px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
+    height: 23.13px;  
     font-size: 18px;
-    line-height: 21px;
-    display: flex;
-    align-items: center;
-}
+  }
 .oferta1 {
     position: absolute;
-    margin-left: 94px;
-    top: 352.26px;
-    background: none;
-    width: 164px;
-    height: 40.74px;
     border: 3px solid #FFFFFF;
-}
-.przycisk {
-    width: 49px;
-    height: 12.8px;
-    font-family: 'Roboto';
-    font-style: normal;
-    font-weight: 700;
     font-size: 18px;
-    line-height: 21px;
-    color: #FFFFFF;
+    padding: 10px 57px;
+    margin-top: 352.26px;
 }
-.okno {
-    position: absolute;
+section {
     width: 1280px;
-    height: 700px;
-    background: #F1F1F1;
-    margin-left: 90px; 
+    height: 100vh;
 }
-.specjaliści {
+.nazwiska {
     position: absolute;
+    margin-top: 51px;
     width: 386px;
     height: 35px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
     display: flex;
     align-items: center;
     text-align: center;
     color: #152D41;
-    margin-left: 124px;
-    margin-top: 51px;
+}
+.ellipse {
+    position: absolute;
+    margin-top: 164px;
+    width: 197px;
+    height: 197px;
+    border-radius: 50%;
+    background: #C4C4C4;
+    background-image: url(https://media.istockphoto.com/photos/the-dog-is-talking-over-the-old-phone-picture-id511813936);
+    background-size: cover;
 }
 .ellipse1 {
     position: absolute;
-    width: 197px;
-    height: 197px;
-    border-radius: 50%;
-    background: #917D7D;
     margin-top: 407px;
-    margin-left: 993px;
-}
-.ellipse2 {
-    position: absolute;
+    margin-left: 673px;
     width: 197px;
     height: 197px;
     border-radius: 50%;
     background: #917D7D;
-    margin-top: 164px;
-    margin-left: 95px;
+    background-image: url(https://thumbs.dreamstime.com/z/biznesu-pies-na-telefonie-31335268.jpg);
+    background-size: cover;
+}
+.tekst {
+    position: absolute;
+    margin-top: 199px;
+    margin-left: 260px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    text-align: left;
+    color: #000000;
+}
+.tekst1 {
+    position: absolute;
+    margin-top: 447px;
+    margin-right: 347px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-size: 18px;
+    text-align: right;
+    color: #000000;
 }
 .usługi {
     position: absolute;
     width: 1280px;
-    height: 689px;
-    background: #405D78;
-    margin-left: 90px;
+    height: 100vh;
 }
-.services {
+.servises {
     position: absolute;
+    margin-top: 50px;
     width: 501px;
     height: 42px;
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
-    line-height: 42px;
     color: #FFFFFF;
-    margin-left: 110px;
-    margin-top: 50px;
 }
 .box {
-    position: absolute;
     width: 198px;
     height: 193.78px;
-    background-color: #F1F1F1;
-    display: flex;
-    align-items: center;
+    background: #F1F1F1;
 }
 
-   
 
