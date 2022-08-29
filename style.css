@@ -2,6 +2,7 @@
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wgh@300;700&display=swap');
 .container {
     width: 960px;
+    height: 100vh;
     margin: 0 auto;
 }
 nav {
@@ -20,16 +21,35 @@ nav {
     display: flex;
     justify-content: space-between;
 }
-ul {
+.ul1 {
     display: inline-flex;
     list-style-type: none;
+    align-items: center;
 }
 .firma {
     display: flex;
     align-items: center;
 }
-span {
+.spn {
+    font-size: 18px;
     margin: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.nieaktywny {
+    color: #FFFFFF;
+    font-size: 18px;
+    margin: 20px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+}
+.nieaktywny:disabled {
+    cursor: not-allowed;
 }
 header {
     width: 100%;
@@ -62,6 +82,17 @@ header {
     font-size: 18px;
     padding: 10px 57px;
     margin-top: 352.26px;
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+.oferta1:hover {
+    background-color: white;
+    color: black;
+    transition-duration: 1s;
+    transition-property: all;
 }
 .sekcja1 {
     background-color: #F1F1F1;
@@ -76,12 +107,15 @@ header {
     font-family: 'Roboto';
     font-style: normal;
     font-weight: 700;
-    font-size: 36px;
-    display: flex;
-    align-items: center;
-    text-align: center;
+    font-size: 36px;    
     color: #152D41;
 }
+.ul2 {
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+}
+
 .ellipse {
     position: absolute;
     margin-top: 164px;
@@ -89,7 +123,7 @@ header {
     height: 197px;
     border-radius: 50%;
     background: #C4C4C4;
-    background-image: url(https://media.istockphoto.com/photos/the-dog-is-talking-over-the-old-phone-picture-id511813936);
+    background-image: url(pies1.jpg);
     background-size: cover;
 }
 .ellipse1 {
@@ -100,7 +134,7 @@ header {
     height: 197px;
     border-radius: 50%;
     background: #917D7D;
-    background-image: url(https://thumbs.dreamstime.com/z/biznesu-pies-na-telefonie-31335268.jpg);
+    background-image: url(pies2.png);
     background-size: cover;
 }
 .tekst {
@@ -161,6 +195,11 @@ header {
     align-items: center;
     justify-content: center;
 }
+.box:hover {
+    transform: scale(1.05);
+    transition-duration: .5s;
+    transition-property: all;
+}
 .usługa {
     position: absolute;
     width: 149px;
@@ -188,8 +227,22 @@ footer {
     line-height: 21px;
     color: #FFFFFF;  
 }
-
-   
- 
-
-
+.container1 {
+    width: 960px;
+    height: 71px;
+    margin: 0 auto;
+}
+.footer-container {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.ul3 {
+    display: inline-flex;
+    list-style-type: none;
+    align-items: center;
+}
+i {
+    color: #FFFFFF;
+    margin: 18px;
+}
