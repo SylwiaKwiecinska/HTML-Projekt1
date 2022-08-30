@@ -1,9 +1,7 @@
 /* font-family 'Roboto', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wgh@300;700&display=swap');
 
-html {
-    text-decoration: none;
-}
+
 .container {
     width: 960px;
     font-family: 'Roboto';
@@ -38,6 +36,7 @@ nav {
     margin: 20px; 
     font-size: 18px;
     color: #FFFFFF;
+    text-decoration: none;
 }
 .disabled {
     cursor: not-allowed;     
@@ -70,6 +69,7 @@ header {
     padding: 10px 57px;
     font-size: 18px;
     color: #FFFFFF;
+    text-decoration: none;
     transition-duration: 1s;
     transition-property: all;
 }
