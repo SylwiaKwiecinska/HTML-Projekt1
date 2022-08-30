@@ -1,7 +1,9 @@
 /* font-family 'Roboto', sans-serif;*/
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wgh@300;700&display=swap');
 
-
+html {
+    scroll-behavior: smooth;
+}
 .container {
     width: 960px;
     font-family: 'Roboto';
@@ -25,7 +27,7 @@ nav {
     display: inline-flex;   
     align-items: center;
 }
-.firma {
+.firm {
     display: flex;
     align-items: center;
     font-weight: 700;
@@ -63,7 +65,7 @@ header {
     height: 23.13px;  
     font-size: 18px;
   }
-.oferta1 {
+.oft {
     border: 3px solid #FFFFFF;
     font-size: 18px;
     padding: 10px 57px;
@@ -73,12 +75,12 @@ header {
     transition-duration: 1s;
     transition-property: all;
 }
-.oferta1:hover {
+.oft:hover {
     background-color: white;
     color: black;
     
 }
-.sekcja1 {
+.section1 {
     background-color: #F1F1F1;
     width: 100%;
     padding: 50px 0px;
@@ -118,13 +120,13 @@ header {
     background-image: url(pies2.png);
     background-size: cover;
 }
-.tekst {
+.text {
     width: 700px;
     font-weight: 700;
     font-size: 18px;
     padding: 30px 0 0 50px;
 }
-.tekst1 {
+.text1 {
     width: 700px;
     font-weight: 700;
     font-size: 18px;
@@ -132,7 +134,7 @@ header {
     padding: 30px 50px 0 0;
 }
 
-.sekcja2 {
+.section2 {
     background-color: #405D78;
     width: 100%;
     padding: 50px 0;
@@ -144,7 +146,7 @@ header {
     font-size: 36px;
     color: #FFFFFF;
 }
-.usługi {
+.servises1 {
     width: 960px;
     display: flex;
     flex-flow: row wrap;
@@ -166,7 +168,7 @@ header {
     transform: scale(1.05);
    
 }
-.usługa {
+.service {
     width: 149px;
     height: 67px;
     font-weight: 400;
@@ -178,7 +180,9 @@ header {
 }
 .ellipse3{
     position: absolute;
-    margin: 100px 0 0 75px;
+    display: flex;
+    margin-bottom: 193px;
+    margin-right: 193px;
     width: 22px;
     height: 22px;
     border-radius: 50%;
