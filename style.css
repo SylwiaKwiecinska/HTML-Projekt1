@@ -47,11 +47,8 @@ header {
     width: 100%;
     height: calc(100vh - 50px);
     background-size: cover;
-    color: #FFFFFF;
-}
-.header-container {
-    height: 100vh;
     font-weight: 700;
+    color: #FFFFFF;
     display: flex;  
     flex-direction: column;
     justify-content: center;
@@ -201,11 +198,6 @@ footer {
     font-weight: 700;
     line-height: 21px;
     color: #FFFFFF;  
-}
-.container1 {
-    width: 960px;
-    height: 71px;
-    margin: 0 auto;
 }
 .footer-container {
     display: flex;
